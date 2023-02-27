@@ -11,3 +11,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.profile-image {
+  height: 183px ;
+  display: flex;
+  float: left;
+ 
+}
+
+.IdCard {
+  color: white;
+  background-color: slategray;
+  border: 1px solid darkgray;
+
+}
