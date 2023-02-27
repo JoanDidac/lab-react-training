@@ -32,3 +32,25 @@ code {
   font-size: 2rem;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+.boxcolor {
+  height: 5vw;
+  width: 100vw;
+  border-radius: 13px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 5px silver;
+  color: rgb(72, 71, 71);
+  text-shadow: 0px 2px 2px rgb(255, 255, 255);
+  padding: 10px 0px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.stars-container {
+  font-size: 30px;
+  padding: 10px 0px;
+  margin-bottom: 17px;
+}
