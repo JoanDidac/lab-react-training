@@ -1,12 +1,13 @@
 
-import IdCard from './components/IdCard';
-import usersArray from './components/Data.jsx';
+// import IdCard from './components/IdCard';
+// import usersArray from './components/Data.jsx';
 
 const Greeting = (props) => {
 
-    const { language, children } = props;
+    const { language, children } = props; //children = firstName?
+    
 
-let lang;
+let lang = '';
 
     switch (language) {
         case "de":
@@ -30,9 +31,13 @@ let lang;
         <div className='card-container' >
             <div className='card'>
                 <h2>{lang} {children}</h2>
+                
+
 
             </div>
 
         </div>
     )
 }
+
+export default Greeting;

@@ -16,6 +16,7 @@ code {
   height: 183px ;
   display: flex;
   float: left;
+  border: 1px solid silver;
  
 }
 
@@ -24,4 +25,10 @@ code {
   background-color: slategray;
   border: 1px solid darkgray;
 
+}
+.card-container {
+  height: 100px;
+  color: silver;
+  font-size: 2rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
