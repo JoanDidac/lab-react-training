@@ -20,7 +20,7 @@ const DriverCard = ({ name, rating, img, car }) => {
       <img src={img} alt={name} />
       <div className="driver-info">
         <h2>{name}</h2>
-        <p>{getStars()}</p>
+        <p className="driver-stars">{getStars()}</p>
         <p>
           {car.model} - {car.licensePlate}
         </p>

@@ -56,7 +56,31 @@ code {
   color: gold;
   text-shadow: 1px 1px 1px silver, 1px 1px 1px black;
 }
+.driver-card {
+  background-color: lightblue;
+  max-height: fit-content;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 400px;
+  display: block;
+  border-radius: 13px;
+  padding: 20px 0 20px 0 ;
+}
 
 .driver-card img {
-  max-width: 230px;
+  height: 200px;
+  max-width: 200px;
+  background-size: cover;
+  border-radius: 20px;
+  box-shadow: 1px 10px 10px gray;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  filter:brightness(120%);
+  
+  
+}
+
+.driver-stars {
+  color: gold;
+  text-shadow: 1px 1px 1px silver, 1px 1px 1px black;
 }
