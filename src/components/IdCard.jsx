@@ -1,6 +1,6 @@
 import React from "react";
 import Greeting from './Greetings';
-import usersArray from './Data';
+// import usersArray from './Data';
 
 
 const IdCard = (props) => {

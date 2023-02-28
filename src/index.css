@@ -53,4 +53,10 @@ code {
   font-size: 30px;
   padding: 10px 0px;
   margin-bottom: 17px;
+  color: gold;
+  text-shadow: 1px 1px 1px silver, 1px 1px 1px black;
+}
+
+.driver-card img {
+  max-width: 230px;
 }
