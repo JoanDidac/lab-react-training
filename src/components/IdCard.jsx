@@ -14,7 +14,7 @@ const IdCard = (props) => {
       <div className="IdCard">
         <img className="profile-image" src={picture} alt="ProfilePicture" />
         <div className="cardDetails">
-        <h2> <Greeting language="fr">{firstName}</Greeting> </h2>
+        <h2> <Greeting language="fr">{firstName}!</Greeting> </h2>
           <p>First Name: {firstName}</p>
           <p>Last Name: {lastName}</p>
           <p>Gender: {gender}</p>

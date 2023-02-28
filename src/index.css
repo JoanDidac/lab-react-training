@@ -12,18 +12,69 @@ code {
     monospace;
 }
 
-.profile-image {
-  height: 183px ;
-  display: flex;
-  float: left;
-  border: 1px solid silver;
+.App {
+ margin-left: 2vw;
+ margin-right: 2vw;
  
 }
 
+.profile-image {
+  width: 20%;
+  height: 20%;
+  padding: 16px;
+  box-sizing: border-box;
+  border-radius: 100px;
+  margin-top: 40px;
+  margin-left: 35px;
+  box-shadow:1px 1px 3px rgba(0, 0, 0, 0.539),  1px 1px 2px goldenrod;
+  
+ 
+}
+.profile-image img {
+  display: block;
+  width: 100%;
+  border-radius: 50%;
+
+}
+.cardDetails {
+  width: 60%;
+  padding: 16px;
+  box-sizing: border-box;
+}
+.cardDetails h2 {
+  color: rgba(15, 11, 221, 0.605);
+  text-shadow: 1px 1px 2px silver , 1px 1px 3px rgb(255, 115, 1);
+  margin-top: 0;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cardDetails p {
+  margin: 0 0 8px;
+  font-size: 16px;
+  line-height: 2;
+  margin-top: -15px;
+  display: flex;
+  justify-content:space-evenly;
+  
+  
+}
+
+.cardDetails p:first-of-type {
+  margin-top: 0;
+}
+
 .IdCard {
-  color: white;
-  background-color: slategray;
+  
+  background-color: rgb(53, 71, 166);
   border: 1px solid darkgray;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  background-color: #f1f1f1;
+  border-radius: 8px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin-bottom: 16px;
+  
 
 }
 .card-container {
@@ -57,7 +108,7 @@ code {
   text-shadow: 1px 1px 1px silver, 1px 1px 1px black;
 }
 .driver-card {
-  background-color: lightblue;
+  background-color: rgb(53, 71, 166);
   max-height: fit-content;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -65,14 +116,19 @@ code {
   display: block;
   border-radius: 13px;
   padding: 20px 0 20px 0 ;
+  box-shadow : 5px 10px 15px 0px rgba(0, 0, 0, 0.374);
+}
+.driver-info h2 {
+  text-shadow : 0px 0px 1px gold;
 }
 
 .driver-card img {
-  height: 200px;
-  max-width: 200px;
+
+  height: 100%;
+  width: 150px;
   background-size: cover;
-  border-radius: 20px;
-  box-shadow: 1px 10px 10px gray;
+  border-radius: 100px;
+  box-shadow: 1px 0px 10px gray;
   margin-top: 15px;
   margin-bottom: 15px;
   filter:brightness(120%);
@@ -81,6 +137,12 @@ code {
 }
 
 .driver-stars {
+  font-size: 2rem;
   color: gold;
-  text-shadow: 1px 1px 1px silver, 1px 1px 1px black;
+  /* text-shadow: 1px 1px 1px silver; */
+}
+
+.driver-info {
+  color: white;
+  line-height: 1px;
 }

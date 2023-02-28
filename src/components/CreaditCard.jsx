@@ -30,14 +30,14 @@ const CreditCard = (props) => {
         src={cardTypeImgSrc}
         alt={type}
       />
-      <p style={{ margin: '10px 0' }}>**** **** **** {lastFourDigits}</p>
+      <p style={{ margin: '8px 0' }}>**** **** **** {lastFourDigits}</p>
       <div style={{ display: 'flex', marginBottom: '10px' }}>
-        <p style={{ margin: '0 10px', fontSize: '12px' }}>
+        <p style={{lineHeight: '4px', margin: '0 10px', fontSize: '12px' }}>
           Expires {expirationMonth}/{expirationYear.toString().slice(-2)}
         </p>
-        <p style={{ margin: '0 10px', fontSize: '12px' }}>{bank}</p>
+        <p style={{lineHeight: '4px', margin: '0 10px', fontSize: '12px' }}>{bank}</p>
       </div>
-      <p style={{ margin: '0', fontSize: '16px', fontWeight: 'bold' }}>
+      <p style={{ lineHeight: '19px', margin: '0', fontSize: '16px', fontWeight: 'bold' }}>
         {owner}
       </p>
     </div>

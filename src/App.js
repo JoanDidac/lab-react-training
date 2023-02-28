@@ -44,15 +44,15 @@ function App() {
           expirationMonth={3}
           expirationYear={2024}
           bank="Another Bank, Inc."
-          owner="Infanta De Naranja"
-          bgColor="#ffcccc"
+          owner="Jay Z"
+          bgColor="#ffccac"
           color="black"
         />
       </>
       <DriverCard
         name="Travis Kalanick"
         rating={4.2}
-        img="https://media.distractify.com/brand-img/OXmEBFG/1600x1340/best-mugshots-2018-4-1545842765755.png"
+        img="https://ubernewsroomapi.10upcdn.com/wp-content/uploads/2017/09/Dara_ELT_Newsroom_1000px.jpg"
         car={{
           model: 'Toyota Corolla Altis',
           licensePlate: 'CO42DE',
@@ -62,7 +62,7 @@ function App() {
       <DriverCard
         name="Dara Khosrowshahi"
         rating={4.9}
-        img="https://media.distractify.com/brand-img/w040ObJ/1600x1549/best-mugshots-2018-12-1545843222041.png"
+        img="https://images.unsplash.com/photo-1625241152315-4a698f74ceb7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
         car={{
           model: 'Audi A3',
           licensePlate: 'BE33ER',
