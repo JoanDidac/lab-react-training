@@ -191,6 +191,7 @@ code {
     width: 60vw;
     transition: transform 0.5s, filter 0.5s;
   cursor: pointer;
+  margin-left: 4px;
     
   }
 
@@ -216,10 +217,63 @@ code {
   }
 
   .gif-container {
+    display: block;
+    justify-content: center;
+    align-items: center;
     border: 2px solid black;
-    background-image: radial-gradient(white,silver,lightblue ,rgb(173, 178, 230));
+    background-image: radial-gradient(white,silver,lightblue ,rgb(173, 191, 230));
   }
   
+  .dice-container {
+    width: fit-content;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-image: radial-gradient( circle at 50% 50%,#ff9933, #ff00cc, #cc00ff, #cc00ff 99.9%);
+    padding: 2rem;
+    padding-right: 24px;
+    text-align: center;
+
+  }
+  
+  
+  .dice-container h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3rem;
+    width: 500px;
+    margin-top: 90px;
+    margin-left: 15vw;
+    margin-bottom: -60px;
+    font-weight: bold;
+    color: rgba(89, 1, 104, 0.629);
+    text-shadow: 2px 2px #333333 , 2px 2px 2px rgb(255, 255, 255);;
+   
+  }
+
+  .dice img {
+    width: 500px;
+    padding: 150px;
+  }
+
+  .dice:hover {
+    transform: rotate(360deg);
+  }
+
+  .dice {
+    display: block;
+    margin: 0 auto;
+    transition: transform 0.5s ease-out;
+    
+  }
+  .dice-empty {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .dice.show-empty .dice-empty {
+    opacity: 1;
+  }
+
   
   
   
