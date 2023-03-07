@@ -357,6 +357,12 @@ code {
 
   /* Iteration-12 NumbersTable */
 
+    .input {
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      padding-top: 50px;
+      margin-top: 100px;
+      background-color:rgba(2, 180, 180, 0.513);
+    }
   .boxes-container {
     padding: 100px;
 

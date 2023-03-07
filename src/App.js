@@ -33,7 +33,10 @@ import landscape15 from './assets/images/landscape15.jpeg';
 import landscape16 from './assets/images/landscape16.jpeg';
 import NumbersTable from './components/NumbersTable';
 
+
 function App() {
+
+  
   return (
     <div className="App">
     <Greeting></Greeting>
@@ -129,6 +132,7 @@ function App() {
     
   />
   <>
+  
     <NumbersTable limit={100}></NumbersTable>
   </>
       </>

@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 
-const NumbersTable = ({ limit }) => {
+const NumbersTable = () => {
+  const [limit, setLimit] = useState(1);
+
   const boxes = [];
 
   for (let i = 1; i <= limit; i++) {
@@ -34,7 +36,24 @@ const NumbersTable = ({ limit }) => {
     );
   }
 
-  return <div className="boxes-container">{boxes}</div>;
+  const handleLimitChange = (event) => {
+    const newLimit = Number(event.target.value);
+    setLimit(newLimit);
+  };
+
+  return (
+    <div className="input">
+      <label htmlFor="limit-input">Enter limit:</label>
+      <input
+        id="limit-input"
+        type="number"
+        min="1"
+        value={limit}
+        onChange={handleLimitChange}
+      />
+      <div className="boxes-container">{boxes}</div>
+    </div>
+  );
 };
 
 const isPrime = (num) => {
