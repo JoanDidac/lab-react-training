@@ -282,6 +282,7 @@ code {
     height: 500px;
     overflow: hidden;
     border: 10px solid #333333;
+ 
   }
   
   .carousel-button {
@@ -291,13 +292,14 @@ code {
     width: 210px;
     height: 50px;
     background: transparent;
-    color: white;
+    color: rgba(255, 255, 255, 0.354);
     font-size: 24px;
     /* border: 2px solid black; */
     outline: none;
     cursor: pointer;
     margin: 20px 20px 20px 790px;
     letter-spacing: 3px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
  .carousel-buttonleft {
   position: relative;
@@ -306,19 +308,22 @@ code {
   width: 210px;
   height: 50px;
   background: transparent;
-  color: white;
+  color: rgba(255, 255, 255, 0.385);
   font-size: 24px;
   /* border: 2px solid black; */
   outline: none;
   cursor: pointer;
   z-index: 1;
   letter-spacing: 3px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
   
   .carousel-button:hover {
     color: #ff9900;
   }
-  
+  .carousel-buttonleft:hover {
+    color: #ff9900;
+  }
   .carousel-button:first-child {
     left: 110;
   }

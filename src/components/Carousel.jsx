@@ -13,9 +13,9 @@ const Carousel = ({ images }) => {
 
   return (
     <div className="carousel">
-      <button className="carousel-buttonleft" onClick={handleLeftClick}>Left</button>
+      <button className="carousel-buttonleft" onClick={handleLeftClick}>LEFT</button>
       <img className="carousel-image" src={images[currentImageIndex]} alt="carousel" />
-      <button className="carousel-button" onClick={handleRightClick}>Right</button>
+      <button className="carousel-button" onClick={handleRightClick}>RIGHT</button>
     </div>
   );
 };
