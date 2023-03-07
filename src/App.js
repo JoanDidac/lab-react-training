@@ -8,6 +8,11 @@ import CreditCard from './components/CreaditCard';
 import Rating from './components/Rating';
 import DriverCard from './components/DriverCard';
 import LikeButton from './components/LikeButton';
+import ClickablePicture from './components/ClickablePicture';
+import foto1 from './assets/images/P1046453.JPG';
+import foto2 from './assets/images/P1046458.JPG';
+import foto3 from './assets/images/P1046459.JPG';
+import foto4 from './assets/images/P1046460.JPG';
 
 function App() {
   return (
@@ -73,6 +78,10 @@ function App() {
         <LikeButton>Likes</LikeButton>
         <LikeButton>Likes</LikeButton>
         <LikeButton>Likes</LikeButton>
+        
+      </>
+      <>
+      <ClickablePicture imgList={[foto1,foto2,foto3,foto4]} />
         
       </>
     </div>

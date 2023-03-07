@@ -186,7 +186,39 @@ code {
     transform: scale(1.4);
   }
   
-  
+  .clickableImg {
+    padding: 50px 0px;
+    width: 60vw;
+    transition: transform 0.5s, filter 0.5s;
+  cursor: pointer;
+    
+  }
+
+  .clickableImg:focus {
+    transform: scale(1.2);
+    filter: brightness(1.2);
+    outline: none;
+  }
+
+  .gif-header {
+    color: rgb(179, 232, 249);
+    height: 50px;
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: -50px;
+    margin-left: 18vw;
+    margin-right: 10vw;
+    background-image: linear-gradient(lightblue, rgb(0, 115, 255), rgb(40, 40, 230));
+
+  }
+
+  .gif-container {
+    border: 2px solid black;
+    background-image: radial-gradient(white,silver,lightblue ,rgb(173, 178, 230));
+  }
   
   
   
