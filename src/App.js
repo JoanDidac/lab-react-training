@@ -14,6 +14,23 @@ import foto2 from './assets/images/P1046458.JPG';
 import foto3 from './assets/images/P1046459.JPG';
 import foto4 from './assets/images/P1046460.JPG';
 import Dice from './components/Dice';
+import Carousel from './components/Carousel';
+import landscape1 from './assets/images/landscape1.jpeg';
+import landscape2 from './assets/images/landscape2.jpeg';
+import landscape3 from './assets/images/landscape3.jpeg';
+import landscape4 from './assets/images/landscape4.jpeg';
+import landscape5 from './assets/images/landscape5.jpeg';
+import landscape6 from './assets/images/landscape6.jpeg';
+import landscape7 from './assets/images/landscape7.jpeg';
+import landscape8 from './assets/images/landscape8.jpeg';
+import landscape9 from './assets/images/landscape9.jpeg';
+import landscape10 from './assets/images/landscape10.jpeg';
+import landscape11 from './assets/images/landscape11.jpeg';
+import landscape12 from './assets/images/landscape12.jpeg';
+import landscape13 from './assets/images/landscape13.jpg';
+import landscape14 from './assets/images/landscape14.jpg';
+import landscape15 from './assets/images/landscape15.jpeg';
+import landscape16 from './assets/images/landscape16.jpeg';
 
 function App() {
   return (
@@ -87,6 +104,29 @@ function App() {
       </>
       <>
         <Dice></Dice>
+      </>
+      <>
+      <Carousel
+  images={[
+    landscape1,
+    landscape2,
+    landscape3,
+    landscape4,
+    landscape5,
+    landscape6,
+    landscape7,
+    landscape8,
+    landscape9,
+    landscape10,
+    landscape11,
+    landscape12,
+    landscape13,
+    landscape14,
+    landscape15,
+    landscape16,
+  ]}
+    
+  />
       </>
     </div>
   );
