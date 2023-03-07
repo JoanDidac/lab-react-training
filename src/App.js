@@ -31,6 +31,7 @@ import landscape13 from './assets/images/landscape13.jpg';
 import landscape14 from './assets/images/landscape14.jpg';
 import landscape15 from './assets/images/landscape15.jpeg';
 import landscape16 from './assets/images/landscape16.jpeg';
+import NumbersTable from './components/NumbersTable';
 
 function App() {
   return (
@@ -127,6 +128,9 @@ function App() {
   ]}
     
   />
+  <>
+    <NumbersTable limit={100}></NumbersTable>
+  </>
       </>
     </div>
   );
